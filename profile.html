@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page - BOOKFAKE - Nguyễn Nhật Sang</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ada732a436.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search"> 
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png" alt="">
+            </div>
+        </div>
+<!------------ settings-menu ---------------->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>Nguyen Nhat Sang</p>
+                        <a href="#">See your profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
+    <!--- ------profile page ------- ----->
+<div class="profile-container">
+    <img src="images/cover.png" class="cover-img">
+    <div class="profile-details">
+        <div class="pd-left">
+            <div class="pd-row">
+                <img src="images/profile.png" class="pd-image">
+                <div>
+                    <h3>Nguyễn Nhật Sang (Gió) </h3>
+                    <p>120 Bạn Bè - 1 bạn chung</p>
+                    <img src="images/member-1.png">
+                    <img src="images/member-2.png">
+                    <img src="images/member-3.png">
+                    <img src="images/member-4.png">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="pd-right">
+
+            <button type="button"><img src="images/add-friends.png"> Bạn bè</button>
+            <button type="button"><img src="images/message.png"> Nhắn tin</button>
+            <br>
+            <a href=""><img src="images/more.png"></a>
+        </div>
+    </div>
+
+    <div class="profile-info">
+        <div class="info-col">
+
+            <div class="profile-intro">
+                <h3>Giới thiệu</h3>
+                <p>https://sangcoder.tk/</p>
+                <p>Nhận code các website theo yêu cầu</p>
+                <p>SUPPORT FACEBOOK</p>
+                <p>FACEBOOK - Intagram - TikTok</p>
+                <hr>
+                <ul>
+                    <li><img src="images/profile-job.png"> Làm việc tại Facebook Security</li>
+                    <li> <img src="images/profile-study.png">  Đã học tại THCS An Luc Long</li>
+                    <li> <img src="images/profile-home.png"> Sống tại Thành Phố Hồ Chí Minh</li>
+                    <li> <img src="images/profile-location.png"> Đến từ New City, New York</li>
+                </ul>
+            </div>
+            <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Photos</h3>
+                <a href="">All Photos</a>
+                </div>
+                
+                <div class="photo-box">
+                    <div><img src="images/photo1.png"></div>
+                    <div><img src="images/photo2.png"></div>
+                    <div><img src="images/photo3.png"></div>
+                    <div><img src="images/photo4.png"></div>
+                    <div><img src="images/photo5.png"></div>
+                    <div><img src="images/photo6.png"></div>
+                </div>
+            </div>
+            <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Bạn Bè</h3>
+                <a href="">Tất cả bạn bè</a>
+                </div>
+                <p>120 (10 bạn chung)</p>
+                <div class="friends-box">
+                    <div><img src="images/member-1.png"><p>Lữ Hữu Sang</p></div>
+                    <div><img src="images/member-2.png">Admin Nguyễn Nhật Sang</div>
+                    <div><img src="images/member-3.png">Lê Anh Tuấn</div>
+                    <div><img src="images/member-4.png">Sang Coder</div>
+                    <div><img src="images/member-5.png">Code Dạo</div>
+                    <div><img src="images/member-6.png">Nguyễn Nhật Hào</div>
+                    <div><img src="images/member-7.png">Nguyễn Nhật Sang</div>
+                    <div><img src="images/member-8.png">Ma Văn Hưng</div>
+                    <div><img src="images/member-9.png">Ma Văn Tuấn</div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="post-col">
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>Nguyễn Nhật Sang</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="Hãy Viết Một Bài Viết"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png"> Live Video</a>
+                        <a href="#"><img src="images/photo.png"> Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png">Feling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Nguyen Nhat Sang</p>
+                            <span>Jan 11 2022, 1:08 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Subscribe <span>@Nhật Sang Official</span> Nguyễn Nhật Sang IT Chuyên Hổ Trợ Các Dịch Vụ Mạng Xã Hội Facebook Instagrm Tiktok and Nhận Code Các WebSite Theo Yêu Cầu <a href="#">#Nhật Sang Offical★</a> <a href="#">#YouTubeChannel</a></p>
+                <img src="images/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">500</div>
+                        <div><img src="images/comments.png">260</div>
+                        <div><img src="images/share.png">50</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Nguyen Nhat Sang</p>
+                            <span>Jan 11 2022, 1:08 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Subscribe <span>@Nhật Sang Official</span> Nguyễn Nhật Sang IT Chuyên Hổ Trợ Các Dịch Vụ Mạng Xã Hội Facebook Instagrm Tiktok and Nhận Code Các WebSite Theo Yêu Cầu <a href="#">#Nhật Sang Offical★</a> <a href="#">#YouTubeChannel</a></p>
+                <img src="images/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">500</div>
+                        <div><img src="images/comments.png">260</div>
+                        <div><img src="images/share.png">50</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Nguyen Nhat Sang</p>
+                            <span>Jan 11 2022, 1:08 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Admin: Nguyễn Nhật Sang<span>@Nhật Sang Official</span> Nguyễn Nhật Sang IT Chuyên Hổ Trợ Các Dịch Vụ Mạng Xã Hội Facebook Instagrm Tiktok and Nhận Code Các WebSite Theo Yêu Cầu <a href="#">#Nhật Sang Offical★</a> <a href="#">#YouTubeChannel</a></p>
+                <img src="images/feed-image-2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">500</div>
+                        <div><img src="images/comments.png">260</div>
+                        <div><img src="images/share.png">50</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Nguyen Nhat Sang</p>
+                            <span>Jan 11 2022, 1:30 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Đăng Kí Bật Chuông Để Nhận Thông Báo Khi Mình Ra Video Mới Nhé <span>@Nhật Sang Official</span> Nguyễn Nhật Sang IT Chuyên Hổ Trợ Các Dịch Vụ Mạng Xã Hội Facebook Instagrm Tiktok and Nhận Code Các WebSite Theo Yêu Cầu <a href="#">#Nhật Sang Offical★</a> <a href="#">#YouTubeChannel</a></p>
+                <img src="images/feed-image-3.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">500</div>
+                        <div><img src="images/comments.png">260</div>
+                        <div><img src="images/share.png">50</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Nguyen Nhat Sang</p>
+                            <span>Jan 11 2022, 2:21 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Ông Trùm Coder Ông Hoàng Nhập Lệnh <span>@Nhật Sang Official</span> Nguyễn Nhật Sang IT Chuyên Hổ Trợ Các Dịch Vụ Mạng Xã Hội Facebook Instagrm Tiktok and Nhận Code Các WebSite Theo Yêu Cầu <a href="#">#Nhật Sang Offical★</a> <a href="#">#YouTubeChannel</a></p>
+                <img src="images/feed-image-4.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">500</div>
+                        <div><img src="images/comments.png">260</div>
+                        <div><img src="images/share.png">50</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Nguyen Nhat Sang</p>
+                            <span>Jan 11 2022, 3:32 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text"> Subscribe <span>@Nhật Sang Official</span> Nguyễn Nhật Sang IT Là Chàng Trai Sinh Năm 2k Đã Thành Công Trong Lĩnh Vực Developers and Coder Chuyên Hổ Trợ Các Dịch Vụ Mạng Xã Hội Facebook Instagrm Tiktok and Nhận Code Các WebSite Theo Yêu Cầu <a href="#">#Nhật Sang Offical★</a> <a href="#">#YouTubeChannel</a></p>
+                <img src="images/feed-image-5.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">500</div>
+                        <div><img src="images/comments.png">260</div>
+                        <div><img src="images/share.png">50</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="footer">
+    <p>Copyright 2022 - Nguyễn Nhật Sang and Limited</p>
+    <p>Websitr Được Vận Hành Và Điểu Khiển Bởi Nguyễn Nhật Sang</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
